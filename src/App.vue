@@ -4,20 +4,16 @@
 </template>
 
 <script>
-import { reactive } from "vue"
-import HelloWorld from './components/HelloWorld.vue'
+import { reactive } from 'vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
-  setup(){
+  setup() {
     const state = reactive({
       monsters: [
         {
-          img: "",
-          name: "billy",
+          img: '',
+          name: 'billy',
           health: 100,
           attacks:{
             attackOne: 0,
@@ -26,8 +22,8 @@ export default {
           }
         },
         {
-          img: "",
-          name: "Brutallatops",
+          img: '',
+          name: 'Brutallatops',
           health: 100,
           attacks:{
             attackOne: 0,
@@ -36,10 +32,10 @@ export default {
           }
         },
         {
-          img: "",
-          name: "billy clones",
+          img: '',
+          name: 'billy clones',
           health: 100,
-          attacks:{
+          attacks: {
             attackOne: 0,
             attackTwo: 0,
             attackThree: 0
