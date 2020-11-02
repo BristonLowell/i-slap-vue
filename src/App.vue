@@ -43,7 +43,10 @@ export default {
         }
       ]
     })
-  }
+  },
+  return  (
+    state
+  )
 }
 </script>
 
